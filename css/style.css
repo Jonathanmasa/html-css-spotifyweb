@@ -11,7 +11,6 @@ body {
 
 li {
     list-style: none;
-    
 
 } 
 
@@ -190,9 +189,23 @@ a  {
 /* RESPONSIVE */
 
 /* MOBILE */
-
-/* NAV COLUMN */
 @media screen and (max-width:552px) {
+
+    /* contenuto principale main */
+    .contenuto-principale {
+        width: calc(100% - 45px);
+    
+    }
+
+    /* BARRA FIX MAIN */
+    .barra-fix {
+    width: calc(100% - 45px);
+
+
+    }
+
+    
+    /* nav column */
     .nav-column {
         width: 45px;
 
