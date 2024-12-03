@@ -9,6 +9,16 @@ body {
     font-family:"Montserrat", sans-serif;
 }
 
+li {
+    list-style: none;
+    
+
+} 
+
+a  {
+    text-decoration: none;
+}
+
 /* REGOLE COLONNA NAV */
 .container-main {
     height: calc(100vh - 90px);
@@ -24,9 +34,110 @@ body {
 
 /* CONTENUTO COLONNA NAV */
 .nav-contain {
-    padding: 2px 0;
+    margin: 15px 0px;
+}
+
+.logo img {
+    width:100px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+   
+}
+
+/* nav list icon */
+.icon-link li a {
+    font-size: 13px;
+    padding-left: 15px;
+    color: gray;
+    margin-bottom: 10px;
+    
 
 }
+
+.icon-link li {
+    margin-bottom: 10px;
+}
+
+.icon-link span {
+    margin-left: 7px;
+    
+    
+}
+
+.icon-link .evidenza {
+    color: white;
+    border-left: 2px solid yellow;
+
+}
+
+/* crea playlist */
+.crea-playlist {
+    margin-left: 15px;
+    
+
+}
+
+.crea-playlist h4 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.crea {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: gray;
+    padding: 5px 12px;
+
+}
+
+.playlist {
+    font-size: 12px;
+    color: gray;
+    margin-left: 5px;
+}
+
+.nome {
+    margin-bottom: 90px;
+}
+
+.nome li {
+    color: gray;
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+ /* info colonna nav */
+.info-nav {
+    width: 90%;
+    color: grey;
+    font-size: 8px;
+    margin-right: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+ .info-nav i {
+    margin-right: 5px;
+    border: 1px solid gray;
+    border-radius: 50%;
+ }
+
+ .user {
+    color: white;
+    font-size: 10px;
+    background-color: rgb(113, 111, 111);
+    padding: 2px 4px;
+    border-radius: 50%;
+ }
+
+ .user-name {
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+ }
 
 
 
@@ -79,11 +190,23 @@ body {
 /* RESPONSIVE */
 
 /* MOBILE */
+
+/* NAV COLUMN */
 @media screen and (max-width:552px) {
     .nav-column {
-        width: 50px;
+        width: 45px;
 
     }
+
+    .text-plus {
+        display: none;
+    }
+
+    .icon-link .evidenza {
+        border-left: none;
+    
+    }
+    
 
     
 }
