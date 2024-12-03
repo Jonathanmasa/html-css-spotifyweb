@@ -4,3 +4,86 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+body {
+    font-family:"Montserrat", sans-serif;
+}
+
+/* REGOLE COLONNA NAV */
+.container-main {
+    height: calc(100vh - 90px);
+    display: flex;
+
+}
+
+.nav-column {
+    width: 150px;
+    height: 100%;
+    background-color: rgb(13, 12, 12);
+}
+
+/* CONTENUTO COLONNA NAV */
+.nav-contain {
+    padding: 2px 0;
+
+}
+
+
+
+/* REGOLE CONTENUTO PRINCIPALE */
+.contenuto-principale {
+    width: calc(100% - 150px);
+    overflow: auto;
+    background-color: rgb(31, 31, 47);
+   
+}
+
+/* BARRA FIX MAIN */
+.barra-fix {
+    height: 80px;
+    width: calc(100% - 150px);
+    position: fixed;
+    background-color: black; opacity: 0.3;
+    text-align: end;
+    z-index: 3;
+
+}
+
+.upgrade a {
+    color: white;
+    font-size: 13px;
+    margin-right: 40px;
+    vertical-align: middle;
+    line-height: 80px;
+    border: 1px solid white;
+    padding: 5px 20px;
+    border-radius: 9999px;
+    text-decoration: none;
+
+}
+
+.playlist {
+    margin-top: 90px;
+}
+
+
+
+/* REGOLE PLAY FOOTER */
+.play-footer {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(51, 47, 47);
+}
+
+
+/* RESPONSIVE */
+
+/* MOBILE */
+@media screen and (max-width:552px) {
+    .nav-column {
+        width: 50px;
+
+    }
+
+    
+}
