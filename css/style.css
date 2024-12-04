@@ -27,7 +27,7 @@ a  {
 
 .nav-column {
     width: 150px;
-    height: 100%;
+    height: calc(100%-70px);
     background-color: rgb(13, 12, 12);
 }
 
@@ -179,11 +179,176 @@ a  {
 
 
 /* REGOLE PLAY FOOTER */
+footer {
+    z-index: 3;
+}
 .play-footer {
     height: 70px;
     width: 100%;
-    background-color: rgb(51, 47, 47);
+    background-color: rgb(41, 38, 38);
 }
+
+.container-play {
+    height: 100%;
+    margin: 0 5px;
+    display: flex;
+}
+
+/* sezione brano */
+
+.brano {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.sinister {
+    width: 30%;
+ 
+    
+}
+
+.sinister img {
+    max-width: 100%;
+}
+
+.titolo-play {
+    max-width: 50%;
+    margin: 0 5px;
+
+}
+
+.titolo-play :last-child {
+    font-size: 8px;
+    color: gray;
+}
+
+.titolo-play .film-title {
+    font-size: 12px;
+    color: white;
+}
+
+.cartella {
+    max-width: 20%;
+    color: grey;
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+
+.fa-heart:hover {
+    color: white;
+}
+
+.fa-folder:hover {
+    color: white;
+}
+
+.cartella i {
+    margin: 2px;
+}
+
+
+.ascolto-barra {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.time {
+    font-size: 10px;
+    color: white;
+    margin-top: 50px;
+    width: 5%;
+}
+
+.tempo-trascorso {
+    text-align: start;
+}
+
+.tempo-rimanente {
+    text-align: end;
+}
+
+
+.play-barra {
+    max-width: 90%;
+    
+
+}
+.barra-container {
+    text-align: center;
+
+}
+
+.barra-container i {
+    color: white;
+    font-size: 12px;
+    padding: 7px 20px;
+    
+}
+
+.barra-container .fa-regular {
+    font-size: 25px;
+}
+
+
+.simbol-control {
+    padding-bottom: 10px;
+    margin: 5px;
+    
+    
+}
+
+.tempo-barra {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+
+}
+
+
+
+.audio-barra {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.audio-icon {
+    color: white;
+    font-size: 12px;
+    width: 50%;
+   
+
+}
+
+.audio-icon i {
+    padding: 5px;
+}
+
+
+.line-active {
+    flex: 0.5;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    margin: 0 5px;
+
+}
+
+.border {
+    flex: 1;
+    border-bottom: 2px solid gray;
+    margin-left: -5px;
+}
+
+
+
+
 
 
 /* RESPONSIVE */
@@ -219,6 +384,20 @@ a  {
         border-left: none;
     
     }
+
+    /* brano */
+    .cartella {
+        max-width: 50%;
+        
+        
+    }
+    .titolo-play {
+        
+        margin: 0;
+    
+    }
+
+    /* barra play */
     
 
     
