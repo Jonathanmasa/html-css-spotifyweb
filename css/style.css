@@ -172,8 +172,42 @@ a  {
 
 }
 
+
+/* nav main principale */
+.link-title {
+    width: 60%;
+    margin: 0% auto;
+    
+
+}
+
+.link-title ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title ul li {
+   
+}
+
+.link-title ul li a {
+    font-weight: bold;
+    color: gray;
+    
+}
+
+
 .playlist {
     margin-top: 90px;
+}
+
+.playlist li {
+    list-style: none;
+}
+
+.playlist li a {
+    text-decoration: none;
 }
 
 
@@ -250,7 +284,7 @@ footer {
     margin: 2px;
 }
 
-
+/* control di ascolto */
 .ascolto-barra {
     width: 70%;
     display: flex;
@@ -311,7 +345,7 @@ footer {
 }
 
 
-
+/* control audio */
 .audio-barra {
     width: 15%;
     display: flex;
