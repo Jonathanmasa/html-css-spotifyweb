@@ -57,6 +57,10 @@ a  {
     margin-bottom: 10px;
 }
 
+.icon-link li a:hover {
+    color: white;
+}
+
 .icon-link span {
     margin-left: 7px;
     
@@ -92,10 +96,19 @@ a  {
 
 }
 
+.crea:hover {
+    background-color: white;
+}
+
 .playlist {
     font-size: 12px;
     color: gray;
     margin-left: 5px;
+
+}
+
+.playlist:hover {
+    color: white;
 }
 
 .nome {
@@ -108,6 +121,10 @@ a  {
     margin-top: 10px;
 }
 
+.nome li:hover {
+    color: white;
+}
+
  /* info colonna nav */
 .info-nav {
     width: 90%;
@@ -117,6 +134,11 @@ a  {
     padding-bottom: 5px;
     border-bottom: 1px solid grey;
 }
+
+.info-nav:hover {
+    color: white;
+}
+
  .info-nav i {
     margin-right: 5px;
     border: 1px solid gray;
@@ -172,6 +194,13 @@ a  {
 
 }
 
+.upgrade a:hover {
+    font-size: 15px;
+    padding: 7px 22px;
+}
+
+
+
 
 /* nav main principale */
 .link-title {
@@ -193,6 +222,10 @@ a  {
     color: gray;
     font-size: 10px;
     
+}
+
+.link-title ul li a:hover {
+    color: white;
 }
 
 
@@ -233,7 +266,10 @@ a  {
 
 .card {
     width: 15%;
+    
 }
+
+
 
 .card img {
     max-width: 100%;
@@ -272,11 +308,6 @@ a  {
 .popolari .card img {
     border-radius: 50%;
 }
-
-
-
-
-
 
 
 
@@ -326,6 +357,11 @@ footer {
 .titolo-play :last-child {
     font-size: 8px;
     color: gray;
+}
+
+.titolo-play :last-child:hover {
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .titolo-play .film-title {
@@ -396,6 +432,10 @@ footer {
 
 .barra-container .fa-regular {
     font-size: 25px;
+}
+
+.barra-container .fa-regular:hover {
+    font-size: 26px;
 }
 
 
