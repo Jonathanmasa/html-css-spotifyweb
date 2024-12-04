@@ -175,7 +175,7 @@ a  {
 
 /* nav main principale */
 .link-title {
-    width: 60%;
+    width: 80%;
     margin: 0% auto;
     
 
@@ -183,24 +183,26 @@ a  {
 
 .link-title ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.link-title ul li {
-   
-}
 
 .link-title ul li a {
     font-weight: bold;
     color: gray;
+    font-size: 10px;
     
 }
 
 
 .playlist {
     margin-top: 90px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
+
+
 
 .playlist li {
     list-style: none;
@@ -210,9 +212,76 @@ a  {
     text-decoration: none;
 }
 
+.evidenza-main {
+    padding-bottom: 2px;
+    border-bottom: 2px solid yellow;
+}
+
+/* titolo e playlist */
+.playlist h3 {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.card {
+    width: 15%;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.nome-card {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.titolo-playlist {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 10px;
+}
+
+/* creato per john doe */
+.john-doe {
+    display: flex;
+    gap: 10px;
+
+}
 
 
-/* REGOLE PLAY FOOTER */
+/* artisti più popolari */
+.popolari {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.popolari .card img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* REGOLE FOOTER */
 footer {
     z-index: 3;
 }
@@ -387,8 +456,36 @@ footer {
 
 /* RESPONSIVE */
 
+/* TABLET */
+@media screen and (max-width: 768px) {
+
+    /* nav main  */
+    .link-title {
+        width: 90%;
+   
+    }
+
+    .link-title ul li a {
+        font-size: 8px;
+        
+    }
+
+    /* card immagini */
+    .nome-card {
+        font-size: 0.5rem;
+    }
+
+    .card {
+        width: 20%;
+    }
+
+   
+
+    
+}
+
 /* MOBILE */
-@media screen and (max-width:552px) {
+@media screen and (max-width:568px) {
 
     /* contenuto principale main */
     .contenuto-principale {
@@ -431,8 +528,19 @@ footer {
     
     }
 
-    /* barra play */
-    
+    /* nav main  */
+    .link-title {
+        width: 100%;
+   
+    }
 
+    /* card immagini */
+    .card {
+        width: 45%;
+    }
+   
+    
     
 }
+
+
