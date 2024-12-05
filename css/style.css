@@ -29,6 +29,7 @@ a  {
     width: 150px;
     height: calc(100%-70px);
     background-color: rgb(13, 12, 12);
+    overflow: hidden;
 }
 
 /* CONTENUTO COLONNA NAV */
@@ -107,7 +108,7 @@ a  {
 
 }
 
-.playlist:hover {
+.playlist .link-title:hover {
     color: white;
 }
 
@@ -141,7 +142,8 @@ a  {
 
  .info-nav i {
     margin-right: 5px;
-    border: 1px solid gray;
+    border: 2px solid gray;
+    padding: 1px 2px;
     border-radius: 50%;
  }
 
@@ -266,13 +268,33 @@ a  {
 
 .card {
     width: 15%;
+    position: relative;
     
 }
 
-
-
 .card img {
     max-width: 100%;
+
+}
+
+.card:hover .contenuto-hover {
+    display: block;
+   
+
+}
+
+.card .contenuto-hover {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: white;
+    font-size: 40px;
+    display: none;
+
+}
+
+.card img:hover {
+    background-color: black; opacity: 0.3;
 }
 
 .nome-card {
