@@ -68,6 +68,11 @@ a  {
     
 }
 
+.create:hover {
+    color: white;
+
+}
+
 .icon-link .evidenza {
     color: white;
     border-left: 2px solid yellow;
@@ -177,7 +182,7 @@ a  {
     height: 80px;
     width: calc(100% - 150px);
     position: fixed;
-    background-color: black; opacity: 0.3;
+    background-color: rgba(0, 0, 0, 0.5);
     text-align: end;
     z-index: 3;
 
@@ -193,7 +198,7 @@ a  {
     padding: 5px 20px;
     border-radius: 9999px;
     text-decoration: none;
-
+    
 }
 
 .upgrade a:hover {
@@ -468,12 +473,20 @@ footer {
     
 }
 
+.ball {
+    font-size: 5px;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
 .tempo-barra {
     margin-top: 10px;
     width: 100%;
     display: flex;
 
 }
+
 
 
 /* control audio */
@@ -488,7 +501,7 @@ footer {
 .audio-icon {
     color: white;
     font-size: 12px;
-    width: 50%;
+    width: 40%;
    
 
 }
@@ -501,14 +514,14 @@ footer {
 .line-active {
     flex: 0.5;
     border-bottom: 2px solid rgb(255, 255, 255);
-    margin: 0 5px;
+    width: 30%;
 
 }
 
 .border {
     flex: 1;
     border-bottom: 2px solid gray;
-    margin-left: -5px;
+    width: 30%;
 }
 
 
