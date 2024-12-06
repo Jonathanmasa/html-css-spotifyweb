@@ -27,7 +27,7 @@ a  {
 
 .nav-column {
     width: 150px;
-    height: calc(100%-70px);
+    height: calc(100vh - 70px);
     background-color: rgb(13, 12, 12);
     overflow: hidden;
 }
