@@ -473,13 +473,6 @@ footer {
 }
 
 
-.ball {
-    font-size: 5px;
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
-}
-
 .tempo-barra {
     margin-top: 10px;
     width: 100%;
@@ -515,8 +508,8 @@ footer {
     flex: 0.5;
     border-bottom: 2px solid rgb(255, 255, 255);
     width: 30%;
-
 }
+
 
 
 .border {
